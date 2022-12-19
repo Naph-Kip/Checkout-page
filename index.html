@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Checkout Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+
+    <!-- Main Container -->
+
+    <div class="main-container">
+        <section class="checkout">
+            <div class="checkout-header"><h3>Checkout</h3></div>
+            <div class="contact-sec">
+            <p>Contact information</p>
+            <label><strong>E-mail</strong></label><br>
+            <div class="inputwithicon">
+                <input type="email" id="mail-symbol" placeholder="Enter your email.."/>
+                <div id="mail-icon"><img src="Images/mail-symbol.png"></div>
+            </div><br><br>
+            <label><strong>Phone</strong></label><br>
+            <div class="inputwithicon">
+                <input type="text" id="phone-symbol" placeholder="Enter your phone.."/><br>
+                <div id="phone-icon"><img src="Images/call-icon.png"></div>
+            </div><br>
+            <p>Shipping address</p>
+            <label><strong>Full name</strong></label><br>
+            <div class="inputwithicon">
+                <input type="text" id="person-symbol" placeholder="Rodney Cotton"/><br>
+                <div id="account-icon"><img src="Images/account-circle.png"></div>
+            </div><br><br>
+            <label><strong>Address</strong></label><br>
+            <div class="inputwithicon">
+                <input type="text" id="home-symbol" placeholder="Your address.."/><br>
+                <div id="home-icon"><img src="Images/home-icon.png"></div>
+            </div><br><br>
+            <label><strong>City</strong></label><br>
+            <div class="inputwithicon">
+                <input type="text" id="city-symbol" placeholder="Your city.."/><br>
+                <div id="city-icon"><img src="Images/city-icon.png"></div>
+            </div><br><br>
+            <div id="location">
+                <label id="countrylabel"><strong>Country</strong></label><br>
+                <input type="text" id="public-symbol" class="countrybtn" placeholder="Your country.."/>
+                <div class="country-select">
+                    <select id="select-option">
+                        <option value=""></option>
+                    </select>
+                </div>
+                <div class="inputwithicon"><img src="Images/public-icon.png" id="country-icon"></div>
+                <label id="addresslabel"><strong>Postal Address</strong></label><br>
+                <input type="text" id="postal-symbol" class="postalbtn" placeholder="Your postal code.."/>
+                <div class="inputwithicon"><img src="Images/postage-symbol.png" id="postage-icon"></div>
+            </div><br><br><br>
+            <label class="saveinfo"><span class="save-info">Save this information for the next time</span></label>
+            <div class="infobtn"><input type="checkbox" id="checkbtn"/></div><br><br>
+            <button id="continueid"><span class="wordcontinue">Countinue</span></button>
+            </div>
+        </section>
+
+        <!-- Items -->
+
+        <section class="items-desc">
+            <div class="item1">
+                <div class="image-1">
+                    <img src="Images/photo1.png">
+                </div>
+                <div class="item1-desc">
+                    <h4>Vintage Backbag</h4>
+                    <p id="discounted-price">$54.99 <span id="marked-price">$94.99</span></p>
+                </div>
+                <div class="button-container">
+                    <button id="negativebtn">-</button>
+                    <h3>1</h3>
+                    <button id="positivebtn">+</button>
+                </div>
+            </div>
+            <div class="item2">
+                <div class="image-2">
+                    <img src="Images/photo2.png">
+                </div>
+                <div class="item2-desc">
+                    <h4>Levi Shoes</h4>
+                    <p id="discounted-price">$74.99 <span id="marked-price">$124.99</span></p>
+                </div>
+                <div class="button-container">
+                    <button id="negativebtn">-</button>
+                    <h3>1</h3>
+                    <button id="positivebtn">+</button>
+                </div><br>
+            </div><br>
+            <div class="total-cost" id="total-cost">
+                <hr class="hr-width">
+                <div class="shipping-total">
+                    <p><strong>Shipping</strong></p>
+                    <p><strong>$19</strong></p>
+                </div>
+                <hr class="hr-width">
+                <div class="totals">
+                    <p><strong>Total</strong></p>
+                    <p><strong>$148.98</strong></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="footer">
+        <footer class="footer-content">
+            <p><strong>created by <a href="#naphkip">Naph-Kip</a> - devChallenges.io</strong></p>
+        </footer>
+   </div>
+    </body>
+</html>
